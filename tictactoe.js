@@ -2,6 +2,24 @@ let boxes=document.querySelectorAll(".box");
 let reset = document.querySelector("#reset");
  let msgContainer = document.querySelector(".msg-container");
  let msg =  document.querySelector("#msg");
+ let mode = document.querySelector("#mode");
+ let body = document.querySelector("body");
+
+ let modeName = "dark";
+
+ mode.addEventListener ("click",()=>{
+    if(modeName==="dark"){
+        body.style.backgroundColor="black";
+        mode.innerText = "Light";
+        modeName = "light";
+    }
+    else{
+        body.style.backgroundColor="#274156";
+        mode.innerText = "Dark";
+        modeName = "dark";
+    
+    }
+ });
 
 let turn0 = true;
 

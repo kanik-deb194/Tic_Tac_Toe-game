@@ -1,5 +1,6 @@
-h1{
+#heading{
     text-align: center;
+    color: #D0CCD0;
 }
 *{
     margin: 0;
@@ -56,4 +57,12 @@ body{
 }
 .hide{
     display: none;
+}
+#mode{
+    height: 6vmin;
+    width: 16vmin;
+    border: none;
+    border-radius: 1.5vmin;
+    background-color: #D0CCD0;
+    color: #274156;
 }
